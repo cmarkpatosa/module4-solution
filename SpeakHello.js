@@ -14,7 +14,7 @@
     // See Lecture 52, part 2
     helloSpeaker.speak = function (name) {
         console.log(speakWord + " " + name);
-        document.write(speakWord + " " + name);
+        document.write(speakWord + " " + name + "<br>");
     }
 
     // STEP 5: Expose the 'helloSpeaker' object to the global scope. Name it
